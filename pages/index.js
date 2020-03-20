@@ -21,17 +21,17 @@ const Index = () => (
           </h2>
           <div className="text-3xl mt-2">
             <a className="mr-4" href="https://mkoe.io/linkedin" target="_blank">
-              <span class="icon-linkedin"></span>
+              <span className="icon-linkedin"></span>
             </a>
             <a className="mr-4" href="https://mkoe.io/github" target="_blank">
-              <span class="icon-github"></span>
+              <span className="icon-github"></span>
             </a>
             <a
               className="mr-4"
               href="https://mkoe.io/instagram"
               target="_blank"
             >
-              <span class="icon-instagram"></span>
+              <span className="icon-instagram"></span>
             </a>
           </div>
         </div>

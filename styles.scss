@@ -4,6 +4,8 @@
 @import "pages/header/header.scss";
 @import "pages/about/about.scss";
 
+$primary: #f44;
+
 * {
   box-sizing: border-box;
 }
@@ -20,5 +22,26 @@ h5,
 h6 {
   font-family: "Fira Code", monospace;
 }
+
+.my-a {
+  color: $primary;
+  //   position: relative;
+  text-decoration: $primary solid underline;
+  text-underline-position: under;
+}
+
+// a:after {
+//   content: "";
+
+//   width: 90%;
+//   position: absolute;
+//   transform: translate(-50%, 0);
+//   left: 50%;
+//   bottom: -3px;
+
+//   border-width: 0 0 2px;
+//   border-style: solid;
+//   border-color: $primary;
+// }
 
 @import "tailwindcss/utilities";

@@ -8,8 +8,8 @@ const aboutEntries = [
         <a className="my-a" href="https://htlstp.ac.at/">
           HTL St. Pölten
         </a>{" "}
-        with focus on focus on Java, relational databases, network engineering
-        and project management.
+        with focus on Java, relational database design, network engineering and
+        project management.
       </p>
     )
   },
@@ -19,7 +19,7 @@ const aboutEntries = [
       <p>
         Besides school I program a lot in my free time: web development with
         modern js frameworks (react/next, vue), autonomous flying with drones
-        (python) and other projects.
+        (python) + other projects.
       </p>
     )
   },

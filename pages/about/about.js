@@ -4,7 +4,7 @@ const aboutEntries = [
     content: (
       <p>
         I'm Michael, 17 years old and currently attending the department for
-        Informatics at the{" "}
+        informatics at the{" "}
         <a className="my-a" href="https://htlstp.ac.at/">
           HTL St. Pölten
         </a>{" "}
@@ -18,7 +18,7 @@ const aboutEntries = [
     content: (
       <p>
         Besides school I program a lot in my free time: web development with
-        modern js frameworks (react/next, vue), autonomous flying with drones
+        modern JS frameworks (react/next, vue), autonomous flying with drones
         (python) + other projects.
       </p>
     )

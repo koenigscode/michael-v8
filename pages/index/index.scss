@@ -1,0 +1,29 @@
+.Index {
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjZmZmIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiNjY2MiPjwvcmVjdD4KPC9zdmc+");
+
+  &__content {
+    max-width: 70vw;
+
+    @apply flex flex-col justify-center items-center h-full;
+    @screen lg {
+      @apply w-3/5;
+    }
+  }
+
+  &__bg {
+    background-image: url("../../public/images/header.png");
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
+
+    @apply hidden w-2/5 h-full;
+    @screen lg {
+      @apply block;
+    }
+  }
+
+  h1,
+  h2 {
+    font-family: "Fira Code", monospace;
+  }
+}

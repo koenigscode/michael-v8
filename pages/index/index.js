@@ -1,18 +1,10 @@
-import Head from "next/head"
+import Head from "./head"
 
 const Index = () => (
-  <div className="Index">
-    <Head>
-      <title>Michael König</title>
-      <link
-        href="https://fonts.googleapis.com/css?family=Fira+Code:300,400,500,600,700&display=swap"
-        rel="stylesheet"
-      />
-      <link href="style.css" rel="stylesheet" />
-    </Head>
-
-    <div className="flex justify-center h-screen">
-      <div className="Index__content flex flex-col justify-center items-center h-full lg:w-3/5">
+  <div>
+    <Head />
+    <div className="Index flex justify-center h-screen">
+      <div className="Index__content">
         <div className="flex flex-col">
           <h1 className="inline-block text-gray-900 text-5xl leading-none font-semibold">
             michael koenig
@@ -37,7 +29,7 @@ const Index = () => (
           </div>
         </div>
       </div>
-      <div className="Index__bg hidden w-2/5 h-full lg:block"></div>
+      <div className="Index__bg"></div>
     </div>
   </div>
 )

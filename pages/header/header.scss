@@ -1,0 +1,29 @@
+.Header {
+  @apply flex justify-center;
+
+  height: 98vh;
+  background: url("../../public/background_light.svg");
+
+  &__content {
+    @apply flex flex-col justify-center items-center h-full;
+
+    max-width: 70vw;
+
+    @screen lg {
+      @apply w-3/5;
+    }
+  }
+
+  &__bg {
+    @apply hidden w-2/5 h-full;
+
+    background-image: url("../../public/images/header.png");
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
+
+    @screen lg {
+      @apply block;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+$marginTop: 50px;
+
+.About {
+  @apply flex justify-center z-10 relative;
+  margin-top: -$marginTop;
+  padding-top: calc(#{$marginTop} + 2rem);
+
+  background: url("../../public/background_dark.svg");
+  height: 500px; // TODO: remove
+  clip-path: polygon(0% 0%, 100% $marginTop - 2px, 100% 100%, 0% 100%);
+
+  &__content {
+    @apply flex flex-col;
+
+    width: 80%;
+    max-width: 1400px;
+  }
+}

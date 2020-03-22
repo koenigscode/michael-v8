@@ -16,7 +16,7 @@ const projects = [
     img: "images/python-introduction.png",
     text: `Back in April 2019 I held a short 2h30m talk about Python to interested students at my school.
     The introduction was well received and therefore I decided to write a short PDF about the language (~ 30 pages),
-    teaching the basics of the language.`,
+    teaching its basics.`,
     links: [
       {
         text: "Download",
@@ -34,17 +34,16 @@ const projects = [
     type: "Programming Contest",
     name: "First Lego League City Shaper",
     img: "images/fll.jpg",
-    text: `After months of preparation we managed to become 1st place in Robot Design and 3rd place overall at the regional tournament,
+    text: `After months of preparation we - team vision from ATRIA - managed to become 1st place in Robot Design and 3rd place overall at the regional tournament,
     qualifying us for the nation-wide tournament, where we became 1st place in Robot Design and 6th place overall.`,
     links: [
       {
-        text: "Download",
-        href:
-          "https://github.com/koenigscode/python-introduction/releases/latest/download/python-introduction.pdf"
+        text: "First Lego League",
+        href: "https://www.first-lego-league.org/"
       },
       {
-        text: "Source Code",
-        href: "https://github.com/koenigscode/python-introduction"
+        text: "Team vision",
+        href: "https://atria.or.at/team-vision/"
       }
     ],
     tags: ["Java", "Robotics"]
@@ -59,7 +58,7 @@ export default () => (
         {projects.map((project, idx) => (
           <div key={idx}>
             <div className="Work__project">
-              <div className="text-md italic my-text-primary font-semibold">
+              <div className="text-md italic my-text-primary font-semibold lowercase">
                 > {project.type}
               </div>
               <div className="text-xl font-semibold mb-2">{project.name}</div>
@@ -73,7 +72,12 @@ export default () => (
               </div>
               <div>
                 {project.links.map((link, idx) => (
-                  <a key={idx} href={link.href} className="my-a mr-2">
+                  <a
+                    key={idx}
+                    href={link.href}
+                    target="_blank"
+                    className="my-a mr-2"
+                  >
                     {link.text}
                   </a>
                 ))}

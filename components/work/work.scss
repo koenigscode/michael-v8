@@ -5,7 +5,7 @@
 
   @apply z-10 relative;
   margin-top: -$skewHeight;
-  padding: calc(#{$skewHeight} + 2rem) 0;
+  padding: calc(#{$skewHeight} + #{$sectionPadding}) 0;
 
   clip-path: polygon(0% 0%, 100% $skewHeight - 2px, 100% 100%, 0% 100%);
 
@@ -14,8 +14,22 @@
   }
 
   &__project {
-    @apply flex flex-col justify-center p-6 rounded-lg text-white h-full;
-
+    @apply flex flex-col justify-center p-6 rounded-lg text-white h-full relative leading-tight;
+    background-image: linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.75)
+    );
     background-size: cover;
+  }
+
+  &__project-bg {
+    @apply rounded-lg absolute left-0 right-0 block w-full h-full bg-cover bg-center -z-10;
+    filter: blur(2px);
+
+    &--blur {
+      filter: blur(8px);
+      z-index: -2;
+    }
   }
 }

@@ -1,7 +1,7 @@
 .About {
   @apply flex justify-center z-10 relative text-white;
   margin-top: -$skewHeight;
-  padding: calc(#{$skewHeight} + 2rem) 0;
+  padding: calc(#{$skewHeight} + #{$sectionPadding}) 0;
 
   background: url("../../public/background_dark.svg");
   clip-path: polygon(0% 0%, 100% $skewHeight - 2px, 100% 100%, 0% 100%);

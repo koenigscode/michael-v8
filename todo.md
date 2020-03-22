@@ -4,4 +4,5 @@
 - set meta tags
 - set lang
 - make pwa
-- responsive image
+- responsive images
+- imprint back button

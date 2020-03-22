@@ -1,8 +1,8 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 
-@import "pages/header/header.scss";
-@import "pages/about/about.scss";
+@import "components/header/header.scss";
+@import "components/about/about.scss";
 
 $primary: #f44;
 
@@ -29,19 +29,5 @@ h6 {
   text-decoration: $primary solid underline;
   text-underline-position: under;
 }
-
-// a:after {
-//   content: "";
-
-//   width: 90%;
-//   position: absolute;
-//   transform: translate(-50%, 0);
-//   left: 50%;
-//   bottom: -3px;
-
-//   border-width: 0 0 2px;
-//   border-style: solid;
-//   border-color: $primary;
-// }
 
 @import "tailwindcss/utilities";

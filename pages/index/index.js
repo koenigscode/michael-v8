@@ -1,6 +1,6 @@
-import Head from "./head"
-import Header from "../header/header"
-import About from "../about/about"
+import Head from "../../components/head"
+import Header from "../../components/header/header"
+import About from "../../components/about/about"
 
 export default () => (
   <div>

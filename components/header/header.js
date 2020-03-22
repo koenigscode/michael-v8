@@ -2,7 +2,7 @@ export default () => (
   <div className="Header">
     <div className="Header__content">
       <div className="flex flex-col">
-        <h1 className="inline-block text-gray-900 text-5xl leading-none font-semibold">
+        <h1 className="inline-block my-text-black text-5xl leading-none font-semibold">
           michael koenig
         </h1>
         <h2 className="inline-block text-gray-700 text-2xl">// koenigscode</h2>

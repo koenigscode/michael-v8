@@ -4,11 +4,11 @@ const projects = [
     name: "Personal Website",
     img: "images/header.png",
     text: `My personal website built with Next.js`,
-    tags: ["React", "Next.js", "tailwindcss"],
     links: [
       { text: "Visit", href: "" },
       { text: "Source Code", href: "https://github.com/koenigscode/michael-v8" }
-    ]
+    ],
+    tags: ["React", "Next.js", "tailwindcss"]
   },
   {
     type: "Writing",
@@ -27,16 +27,15 @@ const projects = [
         text: "Source Code",
         href: "https://github.com/koenigscode/python-introduction"
       }
-    ]
+    ],
+    tags: ["Python", "LaTeX"]
   },
   {
     type: "Programming Contest",
     name: "First Lego League City Shaper",
-    img:
-      "https://images.unsplash.com/photo-1584822637328-52c834e23a42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-    text: `Back in April 2019 I held a short 2h30m talk about Python to interested students at my school.
-    The introduction was well received and therefore I decided to write a short PDF about the language (~ 30 pages),
-    teaching the basics of the language.`,
+    img: "images/fll.jpg",
+    text: `After months of preparation we managed to become 1st place in Robot Design and 3rd place overall at the regional tournament,
+    qualifying us for the nation-wide tournament, where we became 1st place in Robot Design and 6th place overall.`,
     links: [
       {
         text: "Download",
@@ -47,7 +46,8 @@ const projects = [
         text: "Source Code",
         href: "https://github.com/koenigscode/python-introduction"
       }
-    ]
+    ],
+    tags: ["Java", "Robotics"]
   }
 ]
 
@@ -58,26 +58,19 @@ export default () => (
       <div className="grid gap-4 grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
         {projects.map((project, idx) => (
           <div key={idx}>
-            <style jsx>{`
-                .Work__project {
-                  background-image: linear-gradient(
-                      to bottom right,
-                      rgba(0, 0, 0, 0.6),
-                      rgba(0, 0, 0, 0.7)
-                    ),
-                    url("${project.img}");
-                    background-position: center;
-                }
-              `}</style>
-
             <div className="Work__project">
-              <div className="text-md italic my-text-primary font-semibold -mb-1">
+              <div className="text-md italic my-text-primary font-semibold">
                 > {project.type}
               </div>
-              <div className="leading-tight text-xl font-semibold mb-2">
-                {project.name}
+              <div className="text-xl font-semibold mb-2">{project.name}</div>
+              <div className="mb-2 text-justify">{project.text}</div>
+              <div className="mb-4">
+                {project.tags.map((tag, idx) => (
+                  <span key={idx} className="mr-2 uppercase font-bold text-sm">
+                    #{tag}
+                  </span>
+                ))}
               </div>
-              <div className="leading-tight mb-2">{project.text}</div>
               <div>
                 {project.links.map((link, idx) => (
                   <a key={idx} href={link.href} className="my-a mr-2">
@@ -85,6 +78,15 @@ export default () => (
                   </a>
                 ))}
               </div>
+              <style jsx>{`
+                  .Work__project-bg {
+                     background-image: url("${project.img}");
+                  }
+            `}</style>
+              <div className="overflow-hidden absolute left-0 right-0 block w-full h-full">
+                <div className="Work__project-bg"></div>
+              </div>
+              <div className="Work__project-bg Work__project-bg--blur"></div>
             </div>
           </div>
         ))}

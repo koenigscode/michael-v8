@@ -1,9 +1,9 @@
 const projects = [
   {
-    type: "Programming",
+    type: "programming",
     name: "Personal Website",
     img: "images/header.png",
-    text: `My personal website built with Next.js`,
+    text: `My personal website built with Next.js (React) and tailwindcss. You're on it right now ;)`,
     links: [
       { text: "Visit", href: "" },
       { text: "Source Code", href: "https://github.com/koenigscode/michael-v8" }
@@ -11,9 +11,9 @@ const projects = [
     tags: ["React", "Next.js", "tailwindcss"]
   },
   {
-    type: "Writing",
+    type: "writing",
     name: "Introduction to Python",
-    img: "images/python-introduction.png",
+    img: "images/python.png",
     text: `Back in April 2019 I held a short 2h30m talk about Python to interested students at my school.
     The introduction was well received and therefore I decided to write a short PDF about the language (~ 30 pages),
     teaching its basics.`,
@@ -31,7 +31,7 @@ const projects = [
     tags: ["Python", "LaTeX"]
   },
   {
-    type: "Programming Contest",
+    type: "robotics contest",
     name: "First Lego League City Shaper",
     img: "images/fll.jpg",
     text: `After months of preparation we - team vision from ATRIA - managed to become 1st place in Robot Design and 3rd place overall at the regional tournament,
@@ -47,6 +47,43 @@ const projects = [
       }
     ],
     tags: ["Java", "Robotics"]
+  },
+  {
+    type: "autonomous drone flying contest",
+    name: "ECER 2020",
+    img: "images/ecer.png",
+    text: `We - team vision from ATRIA - are currently preparing for the ECER (European Conference on Educational Robotics) in Bratislava this year.
+    We're using ROS (Robot Operating System) and OpenCV to complete different missions autonomously.`,
+    links: [
+      {
+        text: "PRIA ECER",
+        href: "https://pria.at/en/ecer/"
+      },
+      {
+        text: "Team vision",
+        href: "https://atria.or.at/team-vision/"
+      }
+    ],
+    tags: ["Python", "ROS", "OpenCV"]
+  },
+  {
+    type: "hackathon project",
+    name: "Open Weather Station - Jugend Hackt 2019, Linz",
+    img: "images/ows.jpg",
+    text: `After coding for one and a half day we had a working weather station prototype
+    that could measure various environmental data.
+    The data was then sent to a backend and displayed in a web-frontend.`,
+    links: [
+      {
+        text: "Final Presentation",
+        href: "https://mkoe.io/ows"
+      },
+      {
+        text: "Source Code",
+        href: "https://github.com/jugend-hackt-weather-station"
+      }
+    ],
+    tags: ["Vue.js", "Express"]
   }
 ]
 

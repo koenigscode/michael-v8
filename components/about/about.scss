@@ -7,9 +7,16 @@
   clip-path: polygon(0% 0%, 100% $skewHeight - 2px, 100% 100%, 0% 100%);
 
   &__content {
-    @apply flex flex-col;
+    @apply flex flex-col my-max-w-content my-w-content;
+  }
 
-    width: 80%;
-    max-width: 1400px;
+  &__grid {
+    @apply grid gap-12 justify-center;
+    grid-template-columns: repeat(1, minmax(0, 30rem));
+
+    @screen lg {
+      @apply justify-between;
+      grid-template-columns: repeat(3, minmax(0, 20rem));
+    }
   }
 }

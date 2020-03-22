@@ -23,3 +23,20 @@ h6 {
   text-underline-position: under;
   font-weight: 600;
 }
+
+.my-section-heading {
+  @apply inline-block text-3xl font-semibold mb-6;
+}
+
+.my-text-black {
+  @apply;
+  color: #222;
+}
+
+.my-w-content {
+  width: 80%;
+}
+
+.my-max-w-content {
+  max-width: 1400px;
+}

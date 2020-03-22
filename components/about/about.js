@@ -38,11 +38,11 @@ const aboutEntries = [
 export default () => (
   <div className="About">
     <div className="About__content">
-      <h2 className="inline-block text-3xl font-semibold">// about me</h2>
-      <div className="flex flex-col items-center lg:flex-row lg:justify-between lg:items-start">
+      <h2 className="my-section-heading">// about me</h2>
+      <div className="About__grid">
         {aboutEntries.map((entry, idx) => {
           return (
-            <div key={idx} className="my-8 max-w-xs lg:mx-4 lg:w-1/3">
+            <div key={idx}>
               <h3 className="text-2xl font-semibold mb-4">{entry.title}</h3>
               <div className="text-justify">{entry.content}</div>
             </div>

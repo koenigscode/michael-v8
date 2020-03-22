@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  font-family: "Ubuntu", sans-serif;
 }
 
 h1,
@@ -20,4 +21,5 @@ h6 {
   //   position: relative;
   text-decoration: $primary solid underline;
   text-underline-position: under;
+  font-weight: 600;
 }

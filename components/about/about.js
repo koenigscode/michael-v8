@@ -18,8 +18,8 @@ const aboutEntries = [
     content: (
       <p>
         Besides school I program a lot in my free time: web development with
-        modern JS frameworks (react/next, vue), autonomous flying with drones
-        (python) + other projects.
+        modern JS frameworks (React/Next, Vue), autonomous flying with drones
+        (Python) + other projects.
       </p>
     )
   },

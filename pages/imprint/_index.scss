@@ -1,0 +1,39 @@
+.Imprint {
+  @apply flex justify-center py-16;
+
+  background: url("../../public/background_light.svg");
+
+  &__content {
+    max-width: 1200px;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: "Open Sans", sans-serif;
+  }
+
+  h1 {
+    @apply text-3xl my-8 font-bold;
+  }
+  h2 {
+    @apply text-2xl mt-6 font-semibold;
+  }
+  h3 {
+    @apply text-xl mt-4 font-semibold;
+  }
+
+  a {
+    @apply my-a;
+  }
+
+  ol li {
+    list-style: decimal;
+    list-style-position: inside;
+  }
+
+  ul li {
+    list-style: disc;
+    list-style-position: inside;
+  }
+}

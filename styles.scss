@@ -1,33 +1,12 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 
+@import "./variables.scss";
+@import "./global.scss";
+
 @import "components/header/header.scss";
+@import "components/footer/footer.scss";
 @import "components/about/about.scss";
-
-$primary: #f44;
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Fira Code", monospace;
-}
-
-.my-a {
-  color: $primary;
-  //   position: relative;
-  text-decoration: $primary solid underline;
-  text-underline-position: under;
-}
+@import "pages/imprint/_index";
 
 @import "tailwindcss/utilities";

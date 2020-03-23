@@ -1,11 +1,3 @@
 .Footer {
   @apply flex justify-center;
-  background: url("../../public/background_dark.svg");
-
-  @apply z-10 relative;
-  margin-top: -$skewHeight;
-  padding-top: calc(#{$skewHeight});
-  padding-bottom: calc(#{$skewHeight/2});
-
-  clip-path: polygon(0% 0%, 100% $skewHeight - 2px, 100% 100%, 0% 100%);
 }

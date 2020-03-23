@@ -1,18 +1,4 @@
 .Work {
-  @apply flex justify-center z-10 relative my-text-black;
-
-  background: url("../../public/background_light.svg");
-
-  @apply z-10 relative;
-  margin-top: -$skewHeight;
-  padding: calc(#{$skewHeight} + #{$sectionPadding}) 0;
-
-  clip-path: polygon(0% 0%, 100% $skewHeight - 2px, 100% 100%, 0% 100%);
-
-  &__content {
-    @apply flex flex-col my-max-w-content my-w-content;
-  }
-
   &__project {
     @apply flex flex-col justify-center p-6 rounded-lg text-white h-full relative leading-tight;
     background-image: linear-gradient(

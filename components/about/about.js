@@ -35,20 +35,19 @@ const aboutEntries = [
   }
 ]
 
+import Section from "../../components/section/section"
+
 export default () => (
-  <div className="About">
-    <div className="About__content">
-      <h2 className="my-section-heading">// about me</h2>
-      <div className="About__grid">
-        {aboutEntries.map((entry, idx) => {
-          return (
-            <div key={idx}>
-              <h3 className="text-2xl font-semibold mb-4">{entry.title}</h3>
-              <div className="text-justify">{entry.content}</div>
-            </div>
-          )
-        })}
-      </div>
+  <Section dark heading="about me">
+    <div className="About__grid">
+      {aboutEntries.map((entry, idx) => {
+        return (
+          <div key={idx}>
+            <h3 className="text-2xl font-semibold mb-4">{entry.title}</h3>
+            <div className="text-justify">{entry.content}</div>
+          </div>
+        )
+      })}
     </div>
-  </div>
+  </Section>
 )

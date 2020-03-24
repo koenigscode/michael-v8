@@ -16,7 +16,7 @@ export default () => (
           michael koenig
         </h1>
         <h2 className="inline-block text-gray-700 text-2xl">// koenigscode</h2>
-        <div className=" text-3xl mt-2">
+        <div className="text-3xl mt-2">
           {social.map((val, idx) => (
             <a
               key={idx}

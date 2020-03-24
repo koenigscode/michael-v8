@@ -1,19 +1,18 @@
 @font-face {
-  font-family: "icomoon";
-  src: url("fonts/icomoon.eot?p4zvyc");
-  src: url("fonts/icomoon.eot?p4zvyc#iefix") format("embedded-opentype"),
-    url("fonts/icomoon.ttf?p4zvyc") format("truetype"),
-    url("fonts/icomoon.woff?p4zvyc") format("woff"),
-    url("fonts/icomoon.svg?p4zvyc#icomoon") format("svg");
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?q3mypw');
+  src:  url('fonts/icomoon.eot?q3mypw#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?q3mypw') format('truetype'),
+    url('fonts/icomoon.woff?q3mypw') format('woff'),
+    url('fonts/icomoon.svg?q3mypw#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="icon-"],
-[class*=" icon-"] {
+[class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "icomoon" !important;
+  font-family: 'icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -26,6 +25,48 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-flutter:before {
+  content: "\e90d";
+  color: #02569b;
+}
+.icon-rust:before {
+  content: "\e90c";
+}
+.icon-node-dot-js:before {
+  content: "\e909";
+  color: #393;
+}
+.icon-java:before {
+  content: "\e90a";
+  color: #007396;
+}
+.icon-docker:before {
+  content: "\e90b";
+  color: #1488c6;
+}
+.icon-javascript:before {
+  content: "\e903";
+  color: #f7df1e;
+}
+.icon-vue-dot-js:before {
+  content: "\e904";
+  color: #4fc08d;
+}
+.icon-python:before {
+  content: "\e905";
+  color: #3776ab;
+}
+.icon-tailwindcss:before {
+  content: "\e906";
+  color: #38b2ac;
+}
+.icon-react:before {
+  content: "\e907";
+  color: #61dafb;
+}
+.icon-next-dot-js:before {
+  content: "\e908";
+}
 .icon-instagram:before {
   content: "\e901";
   color: #e4405f;
@@ -36,4 +77,10 @@
 .icon-linkedin:before {
   content: "\e900";
   color: #0077b5;
+}
+.icon-tux:before {
+  content: "\eabd";
+}
+.icon-git:before {
+  content: "\eae7";
 }

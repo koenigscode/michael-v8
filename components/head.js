@@ -40,11 +40,11 @@ export default () => (
     />
     <link rel="manifest" href="manifest.json"></link>
     <link
-      href="https://fonts.googleapis.com/css?family=Fira+Code:300,400,500,600,700&display=swap"
+      href="https://fonts.googleapis.com/css?family=Fira+Code:400,600,700&display=swap"
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap"
+      href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,600,700&display=swap"
       rel="stylesheet"
     />
     <link href="style.css" rel="stylesheet" />

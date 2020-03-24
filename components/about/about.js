@@ -5,7 +5,12 @@ const aboutEntries = [
       <p>
         I'm Michael, 17 years old and currently attending the department for
         informatics at the{" "}
-        <a className="my-a" target="_blank" href="https://htlstp.ac.at/">
+        <a
+          className="my-a"
+          target="_blank"
+          rel="noopener"
+          href="https://htlstp.ac.at/"
+        >
           HTL St. Pölten
         </a>{" "}
         with focus on Java, relational database design, network engineering and

@@ -1,3 +1,13 @@
+const social = [
+  { name: "LinkedIn", iconClass: "linkedin", link: "https://mkoe.io/linkedin" },
+  { name: "GitHub", iconClass: "github", link: "https://mkoe.io/github" },
+  {
+    name: "Instagram",
+    iconClass: "instagram",
+    link: "https://mkoe.io/instagram"
+  }
+]
+
 export default () => (
   <div className="Header">
     <div className="Header__content">
@@ -7,15 +17,18 @@ export default () => (
         </h1>
         <h2 className="inline-block text-gray-700 text-2xl">// koenigscode</h2>
         <div className=" text-3xl mt-2">
-          <a className="mr-4" href="https://mkoe.io/linkedin" target="_blank">
-            <span className="icon-linkedin"></span>
-          </a>
-          <a className="mr-4" href="https://mkoe.io/github" target="_blank">
-            <span className="icon-github"></span>
-          </a>
-          <a className="mr-4" href="https://mkoe.io/instagram" target="_blank">
-            <span className="icon-instagram"></span>
-          </a>
+          {social.map((val, idx) => (
+            <a
+              key={idx}
+              className="mr-4"
+              aria-label={val.name}
+              href={val.link}
+              target="_blank"
+              rel="noopener"
+            >
+              <span className={`icon-${val.iconClass}`}></span>
+            </a>
+          ))}
         </div>
       </div>
     </div>

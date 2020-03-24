@@ -130,6 +130,7 @@ export default () => (
                   key={idx}
                   href={link.href}
                   target="_blank"
+                  rel="noopener"
                   className="my-a mr-2"
                 >
                   {link.text}

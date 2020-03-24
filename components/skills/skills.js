@@ -27,7 +27,7 @@ const skills = [
     name: "Python",
     link: "https://www.python.org/",
     iconClass: "python",
-    text: `I'm using Python for different purposes: file system scripts, web servers, computer vision, ...`
+    text: `I'm using Python for different purposes: automation scripts, web servers, computer vision, ...`
   },
   {
     name: "tailwindcss",

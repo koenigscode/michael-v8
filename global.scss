@@ -3,20 +3,16 @@
 }
 
 .monospace {
-  font-family: "Fira Code", monospace;
+  font-family: "Space Mono", monospace;
 }
 
 body {
   margin: 0;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Baloo 2", sans-serif;
 }
 
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2 {
   @apply monospace;
 }
 
@@ -28,7 +24,7 @@ h6 {
 }
 
 .my-section-heading {
-  @apply inline-block text-3xl font-semibold mb-6;
+  @apply inline-block text-3xl font-bold mb-6;
 }
 
 .my-text-black {

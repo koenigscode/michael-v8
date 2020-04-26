@@ -7,7 +7,7 @@ export default () => (
       <Link href="/imprint">
         <a className="my-a mr-4">Imprint</a>
       </Link>
-      <a href="mailto:koenigmichael2002@gmail.com" className="my-a">
+      <a href="mailto:mail@mkoe.io" className="my-a">
         Contact Me
       </a>
     </div>

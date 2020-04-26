@@ -16,8 +16,8 @@ export default () => (
       <strong>Tel.:</strong> +436802324626
       <br />
       <strong>E-Mail:</strong>{" "}
-      <a href="mailto:koenigmichael2002@gmail.com">
-        koenigmichael2002@gmail.com
+      <a href="mailto:mail@mkoe.io">
+        mail@mkoe.io
       </a>
     </p>
     <h2>EU-Streitschlichtung</h2>

@@ -2,7 +2,7 @@ import Link from "next/link"
 import Section from "../section/section"
 
 export default () => (
-  <Section small>
+  <Section dark small>
     <div className="Footer">
       <Link href="/imprint">
         <a className="my-a mr-4">Imprint</a>

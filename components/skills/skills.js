@@ -52,7 +52,7 @@ const otherSkills = [
   { name: "Linux", iconClass: "tux" },
   { name: "Node.js", link: "https://nodejs.org/", iconClass: "node-dot-js" },
   { name: "Git", link: "https://git-scm.com/", iconClass: "git" },
-  { name: "Rust", link: "https://www.rust-lang.org/", iconClass: "rust" }
+//   { name: "Rust", link: "https://www.rust-lang.org/", iconClass: "rust" }
 ]
 
 import Section from "../section/section"

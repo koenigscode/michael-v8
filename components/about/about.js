@@ -3,7 +3,7 @@ const aboutEntries = [
     title: "Hi!",
     content: (
       <p>
-        I'm Michael, 17 years old and currently attending the department for
+        I'm Michael, 18 years old and currently attending the department for
         informatics at the{" "}
         <a
           className="my-a"

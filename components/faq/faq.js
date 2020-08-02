@@ -20,15 +20,7 @@ const items = [
     {
         heading: "What kind of music do you listen to?",
         content: <>
-            I listen to Pop, House, Edm, and similiar stuff. No metal and classical music :)
-            <br />
-            My favorite artists are among others {" "}
-            <a target="_blank" className="my-a" href="https://open.spotify.com/artist/5vBrKGOjN10BMwB0cJADj4">bülow</a>, {" "}
-            <a target="_blank" className="my-a" href="https://open.spotify.com/artist/6NFRBhq9SmNn1FAiRs9AEf">Amber Van Day</a>, {" "}
-            <a target="_blank" className="my-a" href="https://open.spotify.com/artist/60j0IS2HqT0u3rq7fmOpxD">Vairo</a> and {" "}
-            <a target="_blank" className="my-a" href="https://open.spotify.com/artist/6M2wZ9GZgrQXHCFfjv46we">Dua Lipa</a>.
-            <br />
-            I've also got a few <a target="_blank" className="my-a" href="https://mkoe.io/spotify">public Spotify playlists</a> :)
+            I've got a few <a target="_blank" className="my-a" href="https://mkoe.io/spotify">public Spotify playlists</a> :)
         </>
     },
 ]

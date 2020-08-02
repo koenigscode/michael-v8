@@ -12,12 +12,12 @@ const projects = [
     tags: ["React", "Next.js", "tailwindcss"]
   },
   {
-    type: "autonomous drone flying contest",
+    type: "autonomous drone flying",
     date: "2020",
     name: "ECER 2020",
     img: "images/ecer.png",
-    text: `We - team vision from ATRIA - are currently preparing for the ECER (European Conference on Educational Robotics) in Bratislava this year.
-    We're using ROS (Robot Operating System) and OpenCV to complete different missions autonomously.`,
+    text: `We - team vision from ATRIA - were preparing for the ECER 2020 (European Conference on Educational Robotics) in Bratislava.
+    Sadly, due to COVID-19, the event couldn't take place as planned, but we still learnt a lot about ROS (Robot Operating System) and OpenCV to fly drones autonomously.`,
     links: [
       {
         text: "PRIA ECER",
@@ -47,20 +47,20 @@ const projects = [
     name: "Introduction to Python",
     img: "images/python.png",
     text: `Back in April 2019 I held a short 2h30m talk about Python to interested students at my school.
-    The introduction was well received and therefore I decided to write a short PDF about the language (~ 30 pages),
+    The introduction was well received and therefore I decided to write a short introduction about the language,
     teaching its basics.`,
     links: [
       {
-        text: "Download",
+        text: "Introduction to Python",
         href:
-          "https://github.com/koenigscode/python-introduction/releases/latest/download/python-introduction.pdf"
+          "https://python.mkoe.io"
       },
       {
         text: "Source Code",
-        href: "https://github.com/koenigscode/python-introduction"
+        href: "https://github.com/koenigscode/introduction-to-python"
       }
     ],
-    tags: ["Python", "LaTeX"]
+    tags: ["Python"]
   },
   {
     type: "robotics contest",

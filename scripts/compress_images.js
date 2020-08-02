@@ -8,9 +8,9 @@ const imageminPngquant = require("imagemin-pngquant")
     plugins: [
       imageminJpegtran(),
       imageminPngquant({
-        quality: [0.6, 0.8]
-      })
-    ]
+        // quality: [0.9, 1]
+      }),
+    ],
   })
 
   console.log(files)

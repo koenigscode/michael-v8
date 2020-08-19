@@ -15,8 +15,8 @@ export default () => (
     <p>
       <strong>Tel.:</strong> +436802324626
       <br />
-      <strong>E-Mail:</strong>{" "}
-      <a href="mailto:mail@mkoe.io">
+      <strong>E-Mail:</strong>{' '}
+      <a href='mailto:mail@mkoe.io'>
         mail@mkoe.io
       </a>
     </p>
@@ -27,14 +27,14 @@ export default () => (
       (OS-Plattform) informieren.
       <br />
       Verbraucher haben die Möglichkeit, Beschwerden an die Online
-      Streitbeilegungsplattform der Europäischen Kommission unter{" "}
+      Streitbeilegungsplattform der Europäischen Kommission unter{' '}
       <a
-        href="https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=DE"
-        target="_blank"
-        rel="nofollow"
+        href='https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=DE'
+        target='_blank'
+        rel='nofollow'
       >
         http://ec.europa.eu/odr?tid=221119982
-      </a>{" "}
+      </a>{' '}
       zu richten. Die dafür notwendigen Kontaktdaten finden Sie oberhalb in
       unserem Impressum.
     </p>
@@ -58,14 +58,14 @@ export default () => (
     <h2>Haftung für Links auf dieser Webseite</h2>
     <p>
       Unsere Webseite enthält Links zu anderen Webseiten für deren Inhalt wir
-      nicht verantwortlich sind. Haftung für verlinkte Websites besteht laut{" "}
+      nicht verantwortlich sind. Haftung für verlinkte Websites besteht laut{' '}
       <a
-        href="https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Bundesnormen&Dokumentnummer=NOR40025813&tid=221119982"
-        target="_blank"
-        rel="noopener nofollow"
+        href='https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Bundesnormen&Dokumentnummer=NOR40025813&tid=221119982'
+        target='_blank'
+        rel='noopener nofollow'
       >
         § 17 ECG
-      </a>{" "}
+      </a>{' '}
       für uns nicht, da wir keine Kenntnis rechtswidriger Tätigkeiten hatten und
       haben, uns solche Rechtswidrigkeiten auch bisher nicht aufgefallen sind
       und wir Links sofort entfernen würden, wenn uns Rechtswidrigkeiten bekannt
@@ -94,14 +94,14 @@ export default () => (
     <h2>Datenschutz</h2>
     <p>
       Wir haben diese Datenschutzerklärung (Fassung 22.03.2020-221119982)
-      verfasst, um Ihnen gemäß der Vorgaben der{" "}
+      verfasst, um Ihnen gemäß der Vorgaben der{' '}
       <a
-        href="https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=celex%3A32016R0679&tid=221119982"
-        target="_blank"
-        rel="noopener nofollow"
+        href='https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=celex%3A32016R0679&tid=221119982'
+        target='_blank'
+        rel='noopener nofollow'
       >
         Datenschutz-Grundverordnung (EU) 2016/679
-      </a>{" "}
+      </a>{' '}
       zu erklären, welche Informationen wir sammeln, wie wir Daten verwenden und
       welche Entscheidungsmöglichkeiten Sie als Besucher dieser Webseite haben.
     </p>
@@ -112,14 +112,14 @@ export default () => (
     </p>
     <h2>Rechte laut Datenschutzgrundverordnung</h2>
     <p>
-      Ihnen stehen laut den Bestimmungen der DSGVO und des österreichischen{" "}
+      Ihnen stehen laut den Bestimmungen der DSGVO und des österreichischen{' '}
       <a
-        href="https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001597&tid=221119982"
-        target="_blank"
-        rel="noopener nofollow"
+        href='https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001597&tid=221119982'
+        target='_blank'
+        rel='noopener nofollow'
       >
         Datenschutzgesetzes (DSG)
-      </a>{" "}
+      </a>{' '}
       grundsätzlich die folgende Rechte zu:
     </p>
     <ul>
@@ -146,10 +146,10 @@ export default () => (
       Datenschutzrecht verstößt oder Ihre datenschutzrechtlichen Ansprüche sonst
       in einer Weise verletzt worden sind, können Sie sich bei der
       Aufsichtsbehörde beschweren, welche in Österreich die Datenschutzbehörde
-      ist, deren Webseite Sie unter{" "}
-      <a href="https://www.dsb.gv.at/?tid=221119982" rel="nofollow">
+      ist, deren Webseite Sie unter{' '}
+      <a href='https://www.dsb.gv.at/?tid=221119982' rel='nofollow'>
         https://www.dsb.gv.at/
-      </a>{" "}
+      </a>{' '}
       finden.
     </p>
     <h2>Google Fonts Datenschutzerklärung</h2>
@@ -174,10 +174,10 @@ export default () => (
     <h3>Was sind Google Fonts?</h3>
     <p>
       Google Fonts (früher Google Web Fonts) ist ein Verzeichnis mit über
-      800 Schriftarten, die die 
+      800 Schriftarten, die die
       <a
-        href="https://de.wikipedia.org/wiki/Google_LLC?tid=221119982"
-        rel="nofollow"
+        href='https://de.wikipedia.org/wiki/Google_LLC?tid=221119982'
+        rel='nofollow'
       >
         Google LLC
       </a>
@@ -265,10 +265,10 @@ export default () => (
       Jene Daten, die Google für einen Tag bzw. ein Jahr speichert können nicht
       einfach gelöscht werden. Die Daten werden beim Seitenaufruf automatisch an
       Google übermittelt. Um diese Daten vorzeitig löschen zu können, müssen Sie
-      den Google-Support auf{" "}
-      <a href="https://support.google.com/?hl=de&tid=221119982" rel="nofollow">
+      den Google-Support auf{' '}
+      <a href='https://support.google.com/?hl=de&tid=221119982' rel='nofollow'>
         https://support.google.com/?hl=de&tid=221119982
-      </a>{" "}
+      </a>{' '}
       kontaktieren. Datenspeicherung verhindern Sie in diesem Fall nur, wenn Sie
       unsere Seite nicht besuchen.
     </p>
@@ -276,10 +276,10 @@ export default () => (
       Anders als andere Web-Schriften erlaubt uns Google uneingeschränkten
       Zugriff auf alle Schriftarten. Wir können also unlimitiert auf ein Meer an
       Schriftarten zugreifen und so das Optimum für unsere Webseite rausholen.
-      Mehr zu Google Fonts und weiteren Fragen finden Sie auf{" "}
+      Mehr zu Google Fonts und weiteren Fragen finden Sie auf{' '}
       <a
-        href="https://developers.google.com/fonts/faq?tid=221119982"
-        rel="nofollow"
+        href='https://developers.google.com/fonts/faq?tid=221119982'
+        rel='nofollow'
       >
         https://developers.google.com/fonts/faq?tid=221119982
       </a>
@@ -290,13 +290,13 @@ export default () => (
     </p>
     <p>
       Welche Daten grundsätzlich von Google erfasst werden und wofür diese Daten
-      verwendet werden, können Sie auch auf{" "}
+      verwendet werden, können Sie auch auf{' '}
       <a
-        href="https://policies.google.com/privacy?hl=de&tid=221119982"
-        rel="nofollow"
+        href='https://policies.google.com/privacy?hl=de&tid=221119982'
+        rel='nofollow'
       >
         https://www.google.com/intl/de/policies/privacy/
-      </a>{" "}
+      </a>{' '}
       nachlesen.
     </p>
   </div>

@@ -1,25 +1,30 @@
-const aboutEntries = [
+interface AboutEntry {
+    title: string
+    content?: React.ReactNode
+  }
+
+const aboutEntries: AboutEntry[] = [
   {
-    title: "Hi!",
+    title: 'Hi!',
     content: (
       <p>
         I'm Michael, 18 years old and currently attending the department for
-        informatics at the{" "}
+        informatics at the{' '}
         <a
-          className="my-a"
-          target="_blank"
-          rel="noopener"
-          href="https://htlstp.ac.at/"
+          className='my-a'
+          target='_blank'
+          rel='noopener'
+          href='https://htlstp.ac.at/'
         >
           HTL St. Pölten
-        </a>{" "}
+        </a>{' '}
         with focus on Java, relational database design, network engineering and
         project management.
       </p>
     )
   },
   {
-    title: "Programming",
+    title: 'Programming',
     content: (
       <p>
         Besides school I program a lot in my free time: web development with
@@ -29,7 +34,7 @@ const aboutEntries = [
     )
   },
   {
-    title: "Creative",
+    title: 'Creative',
     content: (
       <p>
         I've been using Photoshop for several years now and enjoy editing photos
@@ -40,16 +45,16 @@ const aboutEntries = [
   }
 ]
 
-import Section from "../../components/section/section"
+import Section from '../../components/section/section'
 
 export default () => (
-  <Section dark heading="about me">
-    <div className="About__grid">
+  <Section dark heading='about me'>
+    <div className='About__grid'>
       {aboutEntries.map((entry, idx) => {
         return (
           <div key={idx}>
-            <h3 className="text-2xl font-semibold mb-4">{entry.title}</h3>
-            <div className="text-justify">{entry.content}</div>
+            <h3 className='text-2xl font-semibold mb-4'>{entry.title}</h3>
+            <div className='text-justify'>{entry.content}</div>
           </div>
         )
       })}

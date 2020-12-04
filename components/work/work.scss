@@ -1,6 +1,6 @@
 .Work {
   &__project {
-    @apply flex flex-col justify-center p-6 rounded-lg text-white h-full relative leading-tight;
+    @apply flex flex-col justify-center p-6 rounded-sm text-white h-full relative leading-tight;
     background-image: linear-gradient(
       to bottom right,
       rgba(0, 0, 0, 0.65),
@@ -10,7 +10,7 @@
   }
 
   &__project-bg {
-    @apply rounded-lg absolute left-0 right-0 block w-full h-full bg-cover bg-center -z-10;
+    @apply absolute left-0 right-0 block w-full h-full bg-cover bg-center rounded-sm -z-10;
     filter: blur(2px);
 
     &--blur {

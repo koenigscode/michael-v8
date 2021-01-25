@@ -36,7 +36,7 @@ const projects: Project[] = [
         type: "programming",
         date: "2020",
         name: "Personal Website",
-        img: "images/header.jpg",
+        img: "images/header.png",
         text: `My personal website built with Next.js (React) and tailwindcss. You're on it right now ;)`,
         links: [
             {

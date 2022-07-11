@@ -19,8 +19,8 @@ const projects: Project[] = [
         date: "2020-2021",
         name: "Novellin",
         img: "images/novellin.png",
-        text: `We're developing a platform with social media features used to publish books as our diploma thesis project. I'm primarily working on the frontend.`,
-        links: [{ text: "Website", href: "https://novellin.com" }],
+        text: `My school colleagues and I developed a prototype for a platform with social media features used to publish books. This was our diploma thesis project and I was primarily working on the frontend.`,
+        links: [],
         tags: ["React Native", "Redux"],
     },
     {
@@ -28,7 +28,7 @@ const projects: Project[] = [
         date: "2020-2021",
         name: "Diploma Thesis: Cross-Platform App Development",
         img: "images/novellin.png",
-        text: `My diploma thesis for school is about technologies used to develop mobile, desktop and web apps from one codebase.`,
+        text: `My diploma thesis for school was about technologies used to develop mobile, desktop and web apps from one codebase.`,
         links: [],
         tags: ["React Native", "Flutter", "Ionic"],
     },
@@ -36,7 +36,7 @@ const projects: Project[] = [
         type: "programming",
         date: "2020",
         name: "Personal Website",
-        img: "images/header.png",
+        img: "images/header.jpg",
         text: `My personal website built with Next.js (React) and tailwindcss. You're on it right now ;)`,
         links: [
             {
@@ -72,7 +72,7 @@ const projects: Project[] = [
         img: "images/collectit.jpg",
         text: `Six students of the HTL St. Pölten - including me - decided to make a web app for our school's open days and it was well-received.
     Guests could go around from booth to booth and were awarded points for doing so.
-    I was responsible for the frontend (React) the guests would interact with.`,
+    I was responsible for the frontend (React) the visitors interacted with.`,
         links: [],
         tags: ["React", "Express"],
     },
@@ -99,7 +99,7 @@ const projects: Project[] = [
         date: "2019",
         name: "Introduction to Python",
         img: "images/python.png",
-        text: `Back in April 2019 I held a short 2h30m talk about Python to interested students at my school.
+        text: `Back in April 2019 I held a short 2½-hour long talk about Python for interested students at my school.
     The introduction was well received and therefore I decided to write a short introduction about the language,
     teaching its basics.`,
         links: [
@@ -145,7 +145,7 @@ const projects: Project[] = [
         links: [
             {
                 text: "Final Presentation",
-                href: "https://mkoe.io/ows",
+                href: "https://jugendhackt.org/video/open-weather-station/",
             },
             {
                 text: "Source Code",
@@ -159,7 +159,7 @@ const projects: Project[] = [
 import Section from "../section/section"
 
 export default () => (
-    <Section heading="my work">
+    <Section heading="My Work">
         <div className="grid gap-4 grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
             {projects.map((project, idx) => (
                 <div key={idx}>

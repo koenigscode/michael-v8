@@ -13,19 +13,18 @@ const faqItems: FaqItem[] = [
         A year later I started with web development.` },
     {
         heading: 'Any favorite programming language(s)?',
-        content: `Always depends on the project but modern JS + TS is quite nice :)` },
+        content: `Always depends on the project, but modern JS + TS is quite nice and the environment I'm most familiar with :)`
+    },
     {
-        heading: 'Any movie / tv show recommendations?',
+        heading: 'Where are you located?',
         content: <>
-            Totally! My favorite movie is <a target='_blank' className='my-a' href='https://www.imdb.com/title/tt2798920/'>Annihilation</a> (sci-if / lovecraftian horror)
-            and my favorite tv show is <a target='_blank' className='my-a' href='https://www.imdb.com/title/tt9561862/'>Love, Death & Robots</a> (animated anthology series with mind-blowing twists).
-            If you're interested in which episodes are my favorites, you can also check out <a target='_blank' className='my-a' href='https://mkoe.io/ldr'>my episode ranking</a> :D
+            I grew up and live in Austria, but I'm going to move to Sweden in August 2022 to study.
         </>
     },
     {
-        heading: 'What kind of music do you listen to?',
+        heading: "I'd like to get in contact!",
         content: <>
-            I've got a few <a target='_blank' className='my-a' href='https://mkoe.io/spotify'>public Spotify playlists</a> :)
+            Just leave me a message on <a target='_blank' className='my-a' href='https://www.linkedin.com/in/koenig-michael/'>LinkedIn</a>, looking forward to hearing from you!
         </>
     },
 ]
@@ -43,7 +42,7 @@ export default () => {
     }
 
     return (
-        <Section heading={"some \"fun facts\" you probably didn't ask for :)"}>
+        <Section heading={"Tell me more about you!"}>
             {faqItems.map((val, idx) => (
                 <div key={idx} className='Faq__item' onClick={event => { onSetCurrent(event, idx) }}>
                     <div className='Faq__item-heading'>{val.heading}</div>

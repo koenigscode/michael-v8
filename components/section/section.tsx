@@ -42,7 +42,7 @@ const Section: React.FC<SectionProps> = (props: SectionProps) => {
             <div className='Section'>
                 <div className='Section__content'>
                     {props.heading && (
-                        <h2 className='my-section-heading'>// {props.heading}</h2>
+                        <h2 className='my-section-heading'>{props.heading}</h2>
                     )}
                     {props.children}
                 </div>

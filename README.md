@@ -1,3 +1,9 @@
+## Info
+
+Node version 14
+
+Generate minimized images with `npm run images`
+
 ## Imprint
 
 Imprint generated using https://www.firmenwebseiten.at/impressum-generator/,

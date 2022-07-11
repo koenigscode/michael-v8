@@ -23,13 +23,13 @@
         rgba(255, 255, 255, 0.3),
         rgba(255, 255, 255, 0.6)
       ),
-      url("../../public/images/header.png");
+      url("../../public/images/header.jpg");
     background-position: center;
     background-size: cover;
 
     @screen lg {
       @apply w-2/5 static;
-      background-image: url("../../public/images/header.png");
+      background-image: url("../../public/images/header.jpg");
       clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
     }
   }

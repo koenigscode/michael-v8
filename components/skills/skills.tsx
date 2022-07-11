@@ -16,19 +16,19 @@ const skills: Skill[] = [
         name: 'React',
         link: 'https://reactjs.org/',
         iconClass: 'react',
-        text: `After using Vue.js for quite a while I decided to learn React and have been using it ever since. I've also been using React Native.`,
+        text: `After learning Vue.js I decided to learn React and have been using it ever since. I have some experience with React Native as well.`,
     },
     {
         name: 'Javascript',
         link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
         iconClass: 'javascript',
-        text: `I'm using JS both on the client and server-side and I'm familiar with modern ES features like async/await. I've also used MobX and Redux.`,
+        text: `I'm using JS both on the client and server-side and I'm familiar with modern ES features (ES6+).`,
     },
     {
         name: 'Python',
         link: 'https://www.python.org/',
         iconClass: 'python',
-        text: `I'm using Python for different purposes: automation scripts, web servers, computer vision, ...`,
+        text: `I'm using Python for different purposes: scripts, web servers, computer vision, ...`,
     },
 
 ]
@@ -65,7 +65,7 @@ const otherSkills = [
 import Section from '../section/section'
 
 export default () => (
-    <Section dark heading="i'm using">
+    <Section dark heading="Technologies I'm using">
         <div className='Skills__grid'>
             {skills.map((val, idx) => (
                 <div key={idx} className='Skills__item'>

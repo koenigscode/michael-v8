@@ -5,10 +5,10 @@ interface AboutEntry {
 
 const birthday = new Date('2002-04-27')
 
-function getAge() { 
+function getAge() {
     var diff_ms = Date.now() - birthday.getTime();
-    var age_dt = new Date(diff_ms); 
-  
+    var age_dt = new Date(diff_ms);
+
     return Math.abs(age_dt.getUTCFullYear() - 1970);
 }
 
@@ -17,18 +17,16 @@ const aboutEntries: AboutEntry[] = [
         title: 'Hi!',
         content: (
             <p>
-                I'm Michael, {getAge()} years old and currently attending the department for
-        informatics at the{' '}
+                I'm Michael, interested in Informatics and I'm going to study
+                Software Engineering and Management (BSc) at the{' '}
                 <a
                     className='my-a'
                     target='_blank'
                     rel='noopener'
-                    href='https://htlstp.ac.at/'
+                    href='https://www.gu.se/en/study-gothenburg/software-engineering-and-management-bachelors-programme-n1sof'
                 >
-                    HTL St. Pölten
-        </a>{' '}
-        with focus on Java, relational database design, network engineering and
-        project management.
+                    University of Gothenburg
+                </a>, starting in August 2022.
             </p>
         )
     },
@@ -36,8 +34,8 @@ const aboutEntries: AboutEntry[] = [
         title: 'Programming',
         content: (
             <p>
-                Besides school I program a lot in my free time: web development with
-                modern JS frameworks (React/Next, Vue), autonomous flying with drones
+                Besides uni I program a lot in my free time: web development with
+                modern JS frameworks (React/Next, Vue), autonomous flying of drones
                 (Python) + other projects.
             </p>
         )
@@ -57,7 +55,7 @@ const aboutEntries: AboutEntry[] = [
 import Section from '../../components/section/section'
 
 export default () => (
-    <Section dark heading='about me'>
+    <Section dark heading='About Me'>
         <div className='About__grid'>
             {aboutEntries.map((entry, idx) => {
                 return (

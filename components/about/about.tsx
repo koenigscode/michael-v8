@@ -17,7 +17,7 @@ const aboutEntries: AboutEntry[] = [
         title: 'Hi!',
         content: (
             <p>
-                I'm Michael, interested in Informatics and I'm going to study
+                I'm Michael, interested in Informatics and currently studying
                 Software Engineering and Management (BSc) at the{' '}
                 <a
                     className='my-a'
@@ -26,7 +26,7 @@ const aboutEntries: AboutEntry[] = [
                     href='https://www.gu.se/en/study-gothenburg/software-engineering-and-management-bachelors-programme-n1sof'
                 >
                     University of Gothenburg
-                </a>, starting in August 2022.
+                </a>, since August 2022.
             </p>
         )
     },
@@ -35,7 +35,7 @@ const aboutEntries: AboutEntry[] = [
         content: (
             <p>
                 Besides uni I program a lot in my free time: web development with
-                modern JS frameworks (React/Next, Vue), autonomous flying of drones
+                modern JS frameworks (i.e. React/Next), autonomous flying of drones
                 (Python) + other projects.
             </p>
         )

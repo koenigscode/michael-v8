@@ -12,14 +12,17 @@ const faqItems: FaqItem[] = [
         content: `I already did some basic Java programming (really basic stuff with if/else, loops etc) in 2014 but really started in 2016 (in school).
         A year later I started with web development.` },
     {
+        heading: 'Any future plans?',
+        content: `After my bachelor, which I should finish by 2025, I'd like to do my master's degree.
+            I don't know in which specific field yet, but I'd like to continue in the field of Software Engineering,
+            but something more specialized.` },
+    {
         heading: 'Any favorite programming language(s)?',
         content: `Always depends on the project, but modern JS + TS is quite nice and the environment I'm most familiar with :)`
     },
     {
         heading: 'Where are you located?',
-        content: <>
-            I grew up and live in Austria, but I'm going to move to Sweden in August 2022 to study.
-        </>
+        content: `I grew up in Austria, but have been living in Gothenburg since August 2022 and I'm studying here.`
     },
     {
         heading: "I'd like to get in contact!",
@@ -42,7 +45,7 @@ export default () => {
     }
 
     return (
-        <Section heading={"Tell me more about you!"}>
+        <Section heading={"Want to know more about me?"}>
             {faqItems.map((val, idx) => (
                 <div key={idx} className='Faq__item' onClick={event => { onSetCurrent(event, idx) }}>
                     <div className='Faq__item-heading'>{val.heading}</div>

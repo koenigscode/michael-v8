@@ -15,7 +15,7 @@ export default () => (
         </p>
         <p />
         <br></br>
-        <p>Michael Koenig</p>
+        <p>Michael König</p>
         <p>
             Aignerstraße 10, <br />
             3511 Furth, <br />
@@ -97,7 +97,7 @@ export default () => (
         </p>
         <p>Die Bilderrechte liegen bei den folgenden Personen und Unternehmen:</p>
         <ul>
-            <li>Michael Koenig</li>
+            <li>Michael König</li>
         </ul>
         <h1>Datenschutzerklärung</h1>
         <h2>Datenschutz</h2>

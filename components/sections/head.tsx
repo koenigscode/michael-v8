@@ -2,13 +2,13 @@ import Head from 'next/head'
 
 export default () => (
     <Head>
-        <title>Michael Koenig</title>
-        <meta name='description' content='Personal Website of Michael Koenig' />
+        <title>Michael König</title>
+        <meta name='description' content='Personal Website of Michael König' />
         <meta
             name='keywords'
-            content='Michael Koenig,Programming,ATRIA,Web Development'
+            content='Michael König,Programming,ATRIA,Web Development'
         />
-        <meta name='author' content='Michael Koenig' />
+        <meta name='author' content='Michael König' />
         <meta name='theme-color' content='#ff4444' />
         <link
             rel='apple-touch-icon'

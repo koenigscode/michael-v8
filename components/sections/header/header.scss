@@ -5,6 +5,13 @@
   background-color: #f6f8fa;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 100 100'%3E%3Crect x='0' y='0' width='10' height='10' fill='%23cccccc'/%3E%3C/svg%3E");
 
+  &__heading {
+    @screen lg {
+        color: #7397a4;
+        text-shadow:0 0 20px #7397a450, 0 0 60px #7397a4;
+    }
+  }
+
   &__content {
     @apply flex flex-col justify-center items-center h-full absolute z-10 static;
 

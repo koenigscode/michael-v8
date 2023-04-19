@@ -23,11 +23,11 @@ const Section: React.FC<SectionProps> = (props: SectionProps) => {
         <div>
             <style jsx>{`
             .Section {
-              background-color: ${props.dark ? '#181818' : '#ffffff'};
+              background-color: ${props.dark ? '#181818' : '#f6f8fa'};
             background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 100 100'%3E%3Crect x='0' y='0' width='18' height='18' fill='%23${props.dark ? '333333' : 'cccccc'
                 }'/%3E%3C/svg%3E");
 
-              color: ${props.dark ? '#ffffff' : '#181818'};
+              color: ${props.dark ? '#f6f8fa' : '#181818'};
               margin-top: -${skewHeight};
               padding-top: ${paddingTop};
               padding-bottom: ${paddingBottom};

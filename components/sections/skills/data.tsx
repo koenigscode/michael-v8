@@ -1,11 +1,11 @@
-interface Skill {
+export interface Skill {
     name: string
     link?: string
     iconClass: string
     text: React.ReactNode
 }
 
-const skills: Skill[] = [
+export const skills: Skill[] = [
     {
         name: 'Next.js',
         link: 'https://nextjs.org/',
@@ -33,13 +33,13 @@ const skills: Skill[] = [
 
 ]
 
-interface OtherSkill {
+export interface OtherSkill {
     name: string
     link?: string
     iconClass: string
 }
 
-const otherSkills = [
+export const otherSkills = [
     {
         name: 'Vue.js',
         link: 'https://vuejs.org/',
@@ -61,45 +61,3 @@ const otherSkills = [
     { name: 'Git', link: 'https://git-scm.com/', iconClass: 'git' },
     //   { name: "Rust", link: "https://www.rust-lang.org/", iconClass: "rust" }
 ]
-
-import Section from '../section/section'
-
-export default () => (
-    <Section dark heading="Technologies I'm using">
-        <div className='Skills__grid'>
-            {skills.map((val, idx) => (
-                <div key={idx} className='Skills__item'>
-                    <a
-                        key={idx}
-                        className='mr-6'
-                        aria-label={val.name}
-                        href={val.link}
-                        target='_blank'
-                        rel='noopener'
-                    >
-                        <span className={`text-5xl icon-${val.iconClass}`}></span>
-                    </a>
-                    <div>
-                        <div className='text-xl font-semibold mb-2'>{val.name}</div>
-                        <p className='inline-block w-full text-justify'>{val.text}</p>
-                    </div>
-                </div>
-            ))}
-            <div className='Skills__item px-0 flex justify-around items-center flex-wrap  lg:col-span-2'>
-                {otherSkills.map((val, idx) => (
-                    <a
-                        key={idx}
-                        className='inline-block m-4'
-                        aria-label={val.name}
-                        title={val.name}
-                        href={val.link}
-                        target='_blank'
-                        rel='noopener'
-                    >
-                        <span className={`text-5xl icon-${val.iconClass}`}></span>
-                    </a>
-                ))}
-            </div>
-        </div>
-    </Section>
-)

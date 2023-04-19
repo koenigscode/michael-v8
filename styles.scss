@@ -4,13 +4,13 @@
 @import "./variables.scss";
 @import "./global.scss";
 
-@import "components/header/header.scss";
-@import "components/footer/footer.scss";
-@import "components/about/about.scss";
-@import "components/work/work.scss";
-@import "components/skills/skills.scss";
-@import "components/section/section.scss";
-@import "components/faq/faq.scss";
+@import "components/sections/header/header.scss";
+@import "components/sections/footer/footer.scss";
+@import "components/sections/about/about.scss";
+@import "components/sections/work/work.scss";
+@import "components/sections/skills/skills.scss";
+@import "components/common/section/section.scss";
+@import "components/sections/faq/faq.scss";
 @import "pages/imprint/_index";
 
 @import "tailwindcss/utilities";

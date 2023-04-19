@@ -1,18 +1,11 @@
-interface AboutEntry {
+export interface AboutEntry {
     title: string
     content?: React.ReactNode
 }
 
-const birthday = new Date('2002-04-27')
 
-function getAge() {
-    var diff_ms = Date.now() - birthday.getTime();
-    var age_dt = new Date(diff_ms);
 
-    return Math.abs(age_dt.getUTCFullYear() - 1970);
-}
-
-const aboutEntries: AboutEntry[] = [
+export const aboutEntries: AboutEntry[] = [
     {
         title: 'Hi!',
         content: (
@@ -51,20 +44,3 @@ const aboutEntries: AboutEntry[] = [
         )
     }
 ]
-
-import Section from '../../components/section/section'
-
-export default () => (
-    <Section dark heading='About Me'>
-        <div className='About__grid'>
-            {aboutEntries.map((entry, idx) => {
-                return (
-                    <div key={idx}>
-                        <h3 className='text-2xl font-semibold mb-4'>{entry.title}</h3>
-                        <div className='text-justify'>{entry.content}</div>
-                    </div>
-                )
-            })}
-        </div>
-    </Section>
-)

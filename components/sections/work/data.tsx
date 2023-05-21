@@ -15,7 +15,21 @@ export interface Project {
 
 export const projects: Project[] = [
     {
-        type: "software development",
+        type: "university project",
+        date: "2023",
+        name: "Plant Stein",
+        img: "images/plant-stein.jpg",
+        text: `Plant Stein is a plant surveillance system that monitors temperature, humidity, brightness and soil moisture of your plants and notifies you when the plant isn't happy.`,
+        links: [
+            {
+                text: "Presentation Video",
+                href: "https://youtu.be/81Tw_L5ifvU",
+            }
+        ],
+        tags: ["Flutter", "Spring Boot", "Microcontroller"],
+    },
+    {
+        type: "school diploma thesis project",
         date: "2020-2021",
         name: "Novellin",
         img: "images/novellin.png",
@@ -24,7 +38,7 @@ export const projects: Project[] = [
         tags: ["React Native", "Redux"],
     },
     {
-        type: "writing",
+        type: "school diploma thesis",
         date: "2020-2021",
         name: "Diploma Thesis: Cross-Platform App Development",
         img: "images/novellin.png",
@@ -33,7 +47,7 @@ export const projects: Project[] = [
         tags: ["React Native", "Flutter", "Ionic"],
     },
     {
-        type: "programming",
+        type: "web dev",
         date: "2020",
         name: "Personal Website",
         img: "images/header.jpg",
@@ -76,44 +90,44 @@ export const projects: Project[] = [
         links: [],
         tags: ["React", "Express"],
     },
-    {
-        type: "writing",
-        date: "2020-2021",
-        name: "Introduction to React.js",
-        img: "images/react.png",
-        text: `I wrote a short and opinionated introduction to React.js that teaches its basics, as well as some modern JS and Next.js`,
-        links: [
-            {
-                text: "Introduction to React",
-                href: "https://react.mkoe.io",
-            },
-            {
-                text: "Source Code",
-                href: "https://github.com/introduction-to-react/introduction-to-react",
-            },
-        ],
-        tags: ["React.js", "Next.js"],
-    },
-    {
-        type: "writing",
-        date: "2019",
-        name: "Introduction to Python",
-        img: "images/python.png",
-        text: `Back in April 2019 I held a short 2½-hour long talk about Python for interested students at my school.
-    The introduction was well received and therefore I decided to write a short introduction about the language,
-    teaching its basics.`,
-        links: [
-            {
-                text: "Introduction to Python",
-                href: "https://python.mkoe.io",
-            },
-            {
-                text: "Source Code",
-                href: "https://github.com/koenigscode/introduction-to-python",
-            },
-        ],
-        tags: ["Python"],
-    },
+    // {
+    //     type: "writing",
+    //     date: "2020-2021",
+    //     name: "Introduction to React.js",
+    //     img: "images/react.png",
+    //     text: `I wrote a short and opinionated introduction to React.js that teaches its basics, as well as some modern JS and Next.js`,
+    //     links: [
+    //         {
+    //             text: "Introduction to React",
+    //             href: "https://react.mkoe.io",
+    //         },
+    //         {
+    //             text: "Source Code",
+    //             href: "https://github.com/introduction-to-react/introduction-to-react",
+    //         },
+    //     ],
+    //     tags: ["React.js", "Next.js"],
+    // },
+    // {
+    //     type: "writing",
+    //     date: "2019",
+    //     name: "Introduction to Python",
+    //     img: "images/python.png",
+    //     text: `Back in April 2019 I held a short 2½-hour long talk about Python for interested students at my school.
+    // The introduction was well received and therefore I decided to write a short introduction about the language,
+    // teaching its basics.`,
+    //     links: [
+    //         {
+    //             text: "Introduction to Python",
+    //             href: "https://python.mkoe.io",
+    //         },
+    //         {
+    //             text: "Source Code",
+    //             href: "https://github.com/koenigscode/introduction-to-python",
+    //         },
+    //     ],
+    //     tags: ["Python"],
+    // },
     {
         type: "robotics contest",
         date: "2019-2020",

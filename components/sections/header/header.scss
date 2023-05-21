@@ -7,8 +7,8 @@
 
   &__heading {
     @screen lg {
-        color: #7397a4;
-        text-shadow:0 0 20px #7397a450, 0 0 60px #7397a4;
+        color: $primary;
+        text-shadow: 0 0 20px #5dbc6450, 0 0 60px $primary;
     }
   }
 
